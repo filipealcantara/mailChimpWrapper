@@ -1,0 +1,8 @@
+E:\Temp Projects\Hariken.MailChimpWrapper\bin\Debug\Hariken.MailChimpWrapper.XML
+E:\Temp Projects\Hariken.MailChimpWrapper\bin\Debug\Hariken.MailChimpWrapper.dll
+E:\Temp Projects\Hariken.MailChimpWrapper\bin\Debug\Hariken.MailChimpWrapper.pdb
+E:\Temp Projects\Hariken.MailChimpWrapper\bin\Debug\Newtonsoft.Json.xml
+E:\Temp Projects\Hariken.MailChimpWrapper\bin\Debug\RestSharp.xml
+E:\Temp Projects\Hariken.MailChimpWrapper\obj\Debug\MailChimpWrapper.csprojResolveAssemblyReference.cache
+E:\Temp Projects\Hariken.MailChimpWrapper\obj\Debug\Hariken.MailChimpWrapper.dll
+E:\Temp Projects\Hariken.MailChimpWrapper\obj\Debug\Hariken.MailChimpWrapper.pdb

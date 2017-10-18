@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8DD4D30-3C6D-4867-9891-E14030A6252D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hariken.MailChimpWrapper</RootNamespace>
+    <AssemblyName>Hariken.MailChimpWrapper</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Hariken.MailChimpWrapper.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net452\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Action\BaseAction.cs" />
+    <Compile Include="Action\BatchAction.cs" />
+    <Compile Include="Action\Common.cs" />
+    <Compile Include="Action\ListAction.cs" />
+    <Compile Include="Action\MembersAction.cs" />
+    <Compile Include="Action\MergeFieldAction.cs" />
+    <Compile Include="MailChimp.cs" />
+    <Compile Include="Types\BatchStatusTypes.cs" />
+    <Compile Include="Serializers\CustomNewtonsoftSerializer.cs" />
+    <Compile Include="Types\EmailTypes.cs" />
+    <Compile Include="Types\LanguageTypes.cs" />
+    <Compile Include="Types\MergeFieldTypes.cs" />
+    <Compile Include="Types\MethodTypes.cs" />
+    <Compile Include="Model\Batch\BatchCreateModel.cs" />
+    <Compile Include="Model\Batch\Filters\BatchReadAllOptions.cs" />
+    <Compile Include="Model\Batch\Filters\BatchReadOptions.cs" />
+    <Compile Include="Model\Batch\OperationModel.cs" />
+    <Compile Include="Model\Batch\Response\BatchCreateResponseModel.cs" />
+    <Compile Include="Model\Batch\Response\BatchReadAllResponseModel.cs" />
+    <Compile Include="Model\Batch\Response\BatchReadResponseModel.cs" />
+    <Compile Include="Model\LinksModel.cs" />
+    <Compile Include="Model\List\CampaignDefaultModel.cs" />
+    <Compile Include="Model\List\ContactModel.cs" />
+    <Compile Include="Model\ErrorDetailModel.cs" />
+    <Compile Include="Model\ErrorModel.cs" />
+    <Compile Include="Model\List\Filters\ListBaseReadOptions.cs" />
+    <Compile Include="Model\List\Filters\ListReadOptions.cs" />
+    <Compile Include="Model\List\ListCreateModel.cs" />
+    <Compile Include="Model\List\Response\ListCreateResponseModel.cs" />
+    <Compile Include="Model\List\Filters\ListReadAllOptions.cs" />
+    <Compile Include="Model\Common\CommonDeleteResponseModel.cs" />
+    <Compile Include="Model\List\Response\ListReadAllResponseModel.cs" />
+    <Compile Include="Model\List\Response\ListReadResponseModel.cs" />
+    <Compile Include="Model\List\ListStatsModel.cs" />
+    <Compile Include="Model\MailChimpWrapperResponse.cs" />
+    <Compile Include="Model\Members\Filters\MembersReadAllOptions.cs" />
+    <Compile Include="Model\Members\LocationModel.cs" />
+    <Compile Include="Model\Members\MembersCreateModel.cs" />
+    <Compile Include="Model\Members\MembersPatchModel.cs" />
+    <Compile Include="Model\Members\MembersPutModel.cs" />
+    <Compile Include="Model\Members\Response\MembersCreateResponseModel.cs" />
+    <Compile Include="Model\Members\Response\MembersNoteModel.cs" />
+    <Compile Include="Model\Members\Response\MembersReadAllResponseModel.cs" />
+    <Compile Include="Model\Members\Response\MembersReadResponseModel.cs" />
+    <Compile Include="Model\Members\Response\MembersStatsModel.cs" />
+    <Compile Include="Model\MergeField\Filters\MergeFieldReadAllOptions.cs" />
+    <Compile Include="Model\MergeField\MergeFieldCreateModel.cs" />
+    <Compile Include="Model\MergeField\MergeFieldCreateOptionsModel.cs" />
+    <Compile Include="Model\MergeField\Response\MergeFieldCreateResponseModel.cs" />
+    <Compile Include="Model\MergeField\Response\MergeFieldReadAllResponseModel.cs" />
+    <Compile Include="Model\MergeField\Response\MergeFieldReadResponseModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Endpoints\ResourcesEndpoints.cs" />
+    <Compile Include="Types\StatusTypes.cs" />
+    <Compile Include="Helpers\Util.cs" />
+    <Compile Include="Helpers\ValidateObjectAttribute.cs" />
+    <Compile Include="Types\VisibilityTypes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
