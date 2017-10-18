@@ -1,9 +1,0 @@
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\Hariken.MailChimpWrapper.XML
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\Hariken.MailChimpWrapper.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\Hariken.MailChimpWrapper.pdb
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\Newtonsoft.Json.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\RestSharp.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\Newtonsoft.Json.xml
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Debug\RestSharp.xml
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\obj\Debug\Hariken.MailChimpWrapper.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\obj\Debug\Hariken.MailChimpWrapper.pdb

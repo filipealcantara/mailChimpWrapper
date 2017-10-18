@@ -1,9 +1,0 @@
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Release\Hariken.MailChimpWrapper.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Release\Hariken.MailChimpWrapper.pdb
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Release\Newtonsoft.Json.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Release\RestSharp.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Release\Newtonsoft.Json.xml
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\bin\Release\RestSharp.xml
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\obj\Release\Hariken.MailChimpWrapper.csprojResolveAssemblyReference.cache
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\obj\Release\Hariken.MailChimpWrapper.dll
-E:\TFS.Hariken\Hariken\Hariken.MailChimpWrapper\obj\Release\Hariken.MailChimpWrapper.pdb
